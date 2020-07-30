@@ -1,9 +1,15 @@
-words = []
-def reverse_each_word(words)
-  words.each do |words|
-    puts 
-    
+def reverse_each_word(string)
+  array = string.split
+  array.each do |words|
+    words.reverse!
+  end
+  array.join(" ")
 end
 
-def reverse_each_word(words)
-end
+def reverse_each_word(string)
+  array = string.split
+  array.collect do |words|
+    words.reverse!
+  end
+  array.join(" ")
+end 
