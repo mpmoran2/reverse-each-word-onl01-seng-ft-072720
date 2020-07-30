@@ -1,7 +1,7 @@
 words = []
 def reverse_each_word(words)
-  words.each.reverse do |words|
-    puts ""
+  words.each do |words|
+    puts string.reverse
 end
 
 def reverse_each_word(words)
